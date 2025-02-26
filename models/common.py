@@ -1,5 +1,6 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 """Common modules."""
+from pathlib import Path
 
 import ast
 import contextlib
@@ -10,7 +11,8 @@ import warnings
 import zipfile
 from collections import OrderedDict, namedtuple
 from copy import copy
-from pathlib import Path
+from pathlib import PosixPath
+
 from urllib.parse import urlparse
 
 import cv2
